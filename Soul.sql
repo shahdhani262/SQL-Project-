@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS `Parks_and_Recreation`;
-CREATE DATABASE `Parks_and_Recreation`;
-USE `Parks_and_Recreation`;
+DROP DATABASE IF EXISTS `Soul`;
+CREATE DATABASE `Soul`;
+USE `Soul`;
 
 
 
@@ -59,15 +59,15 @@ VALUES
 
 
 
-CREATE TABLE parks_departments (
+CREATE TABLE Soul_departments (
   department_id INT NOT NULL AUTO_INCREMENT,
   department_name varchar(50) NOT NULL,
   PRIMARY KEY (department_id)
 );
 
-INSERT INTO parks_departments (department_name)
+INSERT INTO Soul_departments (department_name)
 VALUES
-('Parks and Recreation'),
+('Soul'),
 ('Animal Control'),
 ('Public Works'),
 ('Healthcare'),
