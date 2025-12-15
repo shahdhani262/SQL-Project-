@@ -22,4 +22,4 @@ from employee_salary
 where salary>= 50000;
 
 select*
-from employee_salary;
+from salary_over_50k;
